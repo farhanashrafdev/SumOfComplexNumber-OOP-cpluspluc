@@ -1,0 +1,4 @@
+You are given class definition of complex numbers. The class enables operations on so-called complex numbers. These are numbers of the form realPart + imaginaryPart * i, where i has the value √1 class Complex  { public: Complex( double = 0.0, double = 0.0 ); // constructor Complex operator+( const Complex & ) const; // addition Complex operator-( const Complex & ) const; // subtraction void print() const; // output private: double real; // real part double imaginary; // imaginary 
+}; 
+a) Modify the class to enable input and output of complex numbers via overloaded >> and << operators, respectively (you should remove the print function from the class). 
+b) Overload the multiplication operator to enable multiplication of two complex numbers as in algebra. c) Overload the == and != operators to allow comparisons of complex numbers.
